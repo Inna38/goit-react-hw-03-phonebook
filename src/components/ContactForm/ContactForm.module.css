@@ -1,0 +1,26 @@
+.label {
+  display: block;
+  margin-bottom: 18px;
+  margin-left: 10px;
+}
+
+.input {
+  margin-left: 10px;
+}
+
+.btn {
+  font-size: 16px;
+  border-color: transparent;
+  border-radius: 3px;
+  background-color: rgb(74, 140, 238);
+  color: white;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+  
+  &:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+  }
+}

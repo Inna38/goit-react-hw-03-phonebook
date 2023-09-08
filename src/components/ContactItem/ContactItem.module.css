@@ -1,0 +1,26 @@
+.item {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 15px;
+  font-size: 16px;
+  border-color: transparent;
+  border-radius: 3px;
+  background-color: rgb(74, 140, 238);
+  color: white;
+  margin-left: 10px;
+  padding: 5px;
+  cursor: pointer;
+  
+  &:hover {
+    position: relative;
+    top: 1px;
+    left: 1px;
+  }
+}
+
+.name {
+  display: inline;
+  text-decoration: underline;
+}
